@@ -1,0 +1,3011 @@
+trios:
+        '1':
+                mother: HG00404
+                father: HG00403
+                child: HG00405
+
+        '2':
+                mother: HG00407
+                father: HG00406
+                child: HG00408
+
+        '3':
+                mother: HG00419
+                father: HG00418
+                child: HG00420
+
+        '4':
+                mother: HG00422
+                father: HG00421
+                child: HG00423
+
+        '5':
+                mother: HG00428
+                father: HG00427
+                child: HG00429
+
+        '6':
+                mother: HG00437
+                father: HG00436
+                child: HG00438
+
+        '7':
+                mother: HG00443
+                father: HG00442
+                child: HG00444
+
+        '8':
+                mother: HG00446
+                father: HG00445
+                child: HG00447
+
+        '9':
+                mother: HG00449
+                father: HG00448
+                child: HG00450
+
+        '10':
+                mother: HG00452
+                father: HG00451
+                child: HG00453
+
+        '11':
+                mother: HG00458
+                father: HG00457
+                child: HG00459
+
+        '12':
+                mother: HG00464
+                father: HG00463
+                child: HG00465
+
+        '13':
+                mother: HG00473
+                father: HG00472
+                child: HG00474
+
+        '14':
+                mother: HG00476
+                father: HG00475
+                child: HG00477
+
+        '15':
+                mother: HG00479
+                father: HG00478
+                child: HG00480
+
+        '16':
+                mother: HG00501
+                father: HG00500
+                child: HG00502
+
+        '17':
+                mother: HG00513
+                father: HG00512
+                child: HG00514
+
+        '18':
+                mother: HG00525
+                father: HG00524
+                child: HG00526
+
+        '19':
+                mother: HG00531
+                father: HG00530
+                child: HG00532
+
+        '20':
+                mother: HG00534
+                father: HG00533
+                child: HG00535
+
+        '21':
+                mother: HG00537
+                father: HG00536
+                child: HG00538
+
+        '22':
+                mother: HG00543
+                father: HG00542
+                child: HG00544
+
+        '23':
+                mother: HG00551
+                father: HG01075
+                child: HG00552
+
+        '24':
+                mother: HG00554
+                father: HG00553
+                child: HG00555
+
+        '25':
+                mother: HG00557
+                father: HG00556
+                child: HG00558
+
+        '26':
+                mother: HG00560
+                father: HG00559
+                child: HG00561
+
+        '27':
+                mother: HG00566
+                father: HG00565
+                child: HG00567
+
+        '28':
+                mother: HG00578
+                father: HG00577
+                child: HG00579
+
+        '29':
+                mother: HG00581
+                father: HG00580
+                child: HG00582
+
+        '30':
+                mother: HG00584
+                father: HG00583
+                child: HG00585
+
+        '31':
+                mother: HG00590
+                father: HG00589
+                child: HG00591
+
+        '32':
+                mother: HG00593
+                father: HG00592
+                child: HG00594
+
+        '33':
+                mother: HG00596
+                father: HG00595
+                child: HG00597
+
+        '34':
+                mother: HG00608
+                father: HG00607
+                child: HG00609
+
+        '35':
+                mother: HG00611
+                father: HG00610
+                child: HG00612
+
+        '36':
+                mother: HG00614
+                father: HG00613
+                child: HG00615
+
+        '37':
+                mother: HG00620
+                father: HG00619
+                child: HG00621
+
+        '38':
+                mother: HG00626
+                father: HG00625
+                child: HG00627
+
+        '39':
+                mother: HG00629
+                father: HG00628
+                child: HG00630
+
+        '40':
+                mother: HG00635
+                father: HG00634
+                child: HG00636
+
+        '41':
+                mother: HG00638
+                father: HG00637
+                child: HG00639
+
+        '42':
+                mother: HG00641
+                father: HG00640
+                child: HG00642
+
+        '43':
+                mother: HG00651
+                father: HG00650
+                child: HG00652
+
+        '44':
+                mother: HG00654
+                father: HG00653
+                child: HG00655
+
+        '45':
+                mother: HG00657
+                father: HG00656
+                child: HG00658
+
+        '46':
+                mother: HG00663
+                father: HG00662
+                child: HG00664
+
+        '47':
+                mother: HG00672
+                father: HG00671
+                child: HG00673
+
+        '48':
+                mother: HG00684
+                father: HG00683
+                child: HG00685
+
+        '49':
+                mother: HG00690
+                father: HG00689
+                child: HG00691
+
+        '50':
+                mother: HG00693
+                father: HG00692
+                child: HG00694
+
+        '51':
+                mother: HG00699
+                father: HG00698
+                child: HG00700
+
+        '52':
+                mother: HG00657
+                father: HG00656
+                child: HG00702
+
+        '53':
+                mother: HG00702
+                father: HG00701
+                child: HG00703
+
+        '54':
+                mother: HG00705
+                father: HG00704
+                child: HG00706
+
+        '55':
+                mother: HG00708
+                father: HG00707
+                child: HG00709
+
+        '56':
+                mother: HG00732
+                father: HG00731
+                child: HG00733
+
+        '57':
+                mother: HG00734
+                father: HG01047
+                child: HG00735
+
+        '58':
+                mother: HG00737
+                father: HG00736
+                child: HG00738
+
+        '59':
+                mother: HG00740
+                father: HG00739
+                child: HG00741
+
+        '60':
+                mother: HG01049
+                father: HG01048
+                child: HG01050
+
+        '61':
+                mother: HG01052
+                father: HG01051
+                child: HG01053
+
+        '62':
+                mother: HG01055
+                father: HG01054
+                child: HG01056
+
+        '63':
+                mother: HG01061
+                father: HG01060
+                child: HG01062
+
+        '64':
+                mother: HG01067
+                father: HG01066
+                child: HG01068
+
+        '65':
+                mother: HG01070
+                father: HG01069
+                child: HG01071
+
+        '66':
+                mother: HG01073
+                father: HG01072
+                child: HG01074
+
+        '67':
+                mother: HG01080
+                father: HG01079
+                child: HG01081
+
+        '68':
+                mother: HG01083
+                father: HG01082
+                child: HG01084
+
+        '69':
+                mother: HG01086
+                father: HG01085
+                child: HG01087
+
+        '70':
+                mother: HG01095
+                father: HG01094
+                child: HG01096
+
+        '71':
+                mother: HG01098
+                father: HG01097
+                child: HG01099
+
+        '72':
+                mother: HG01248
+                father: HG01247
+                child: HG01100
+
+        '73':
+                mother: HG01102
+                father: HG01101
+                child: HG01103
+
+        '74':
+                mother: HG01105
+                father: HG01104
+                child: HG01106
+
+        '75':
+                mother: HG01108
+                father: HG01107
+                child: HG01109
+
+        '76':
+                mother: HG01113
+                father: HG01112
+                child: HG01114
+
+        '77':
+                mother: HG01125
+                father: HG01124
+                child: HG01126
+
+        '78':
+                mother: HG01134
+                father: HG01133
+                child: HG01135
+
+        '79':
+                mother: HG01137
+                father: HG01136
+                child: HG01138
+
+        '80':
+                mother: HG01140
+                father: HG01139
+                child: HG01141
+
+        '81':
+                mother: HG01149
+                father: HG01148
+                child: HG01150
+
+        '82':
+                mother: HG01168
+                father: HG01167
+                child: HG01169
+
+        '83':
+                mother: HG01171
+                father: HG01170
+                child: HG01172
+
+        '84':
+                mother: HG01174
+                father: HG01173
+                child: HG01175
+
+        '85':
+                mother: HG01177
+                father: HG01176
+                child: HG01178
+
+        '86':
+                mother: HG01183
+                father: HG01182
+                child: HG01184
+
+        '87':
+                mother: HG01188
+                father: HG01187
+                child: HG01189
+
+        '88':
+                mother: HG01191
+                father: HG01190
+                child: HG01192
+
+        '89':
+                mother: HG01198
+                father: HG01197
+                child: HG01199
+
+        '90':
+                mother: HG01205
+                father: HG01204
+                child: HG01206
+
+        '91':
+                mother: HG01242
+                father: HG01241
+                child: HG01243
+
+        '92':
+                mother: HG01111
+                father: HG01110
+                child: HG01249
+
+        '93':
+                mother: HG01251
+                father: HG01250
+                child: HG01252
+
+        '94':
+                mother: HG01254
+                father: HG01253
+                child: HG01255
+
+        '95':
+                mother: HG01257
+                father: HG01256
+                child: HG01258
+
+        '96':
+                mother: HG01260
+                father: HG01259
+                child: HG01261
+
+        '97':
+                mother: HG01272
+                father: HG01271
+                child: HG01273
+
+        '98':
+                mother: HG01275
+                father: HG01274
+                child: HG01276
+
+        '99':
+                mother: HG01278
+                father: HG01277
+                child: HG01279
+
+        '100':
+                mother: HG01342
+                father: HG01341
+                child: HG01343
+
+        '101':
+                mother: HG01345
+                father: HG01344
+                child: HG01346
+
+        '102':
+                mother: HG01348
+                father: HG01347
+                child: HG01349
+
+        '103':
+                mother: HG01351
+                father: HG01350
+                child: HG01352
+
+        '104':
+                mother: HG01354
+                father: HG01353
+                child: HG01355
+
+        '105':
+                mother: HG01357
+                father: HG01356
+                child: HG01358
+
+        '106':
+                mother: HG01360
+                father: HG01359
+                child: HG01361
+
+        '107':
+                mother: HG01366
+                father: HG01365
+                child: HG01367
+
+        '108':
+                mother: HG01375
+                father: HG01374
+                child: HG01376
+
+        '109':
+                mother: HG01378
+                father: HG01377
+                child: HG01379
+
+        '110':
+                mother: HG01384
+                father: HG01383
+                child: HG01385
+
+        '111':
+                mother: HG01390
+                father: HG01389
+                child: HG01391
+
+        '112':
+                mother: HG01432
+                father: HG01431
+                child: HG01433
+
+        '113':
+                mother: HG01438
+                father: HG01437
+                child: HG01439
+
+        '114':
+                mother: HG01456
+                father: HG01455
+                child: HG01457
+
+        '115':
+                mother: HG01462
+                father: HG01461
+                child: HG01463
+
+        '116':
+                mother: HG01465
+                father: HG01464
+                child: HG01466
+
+        '117':
+                mother: HG01489
+                father: HG01488
+                child: HG01490
+
+        '118':
+                mother: HG01492
+                father: HG01491
+                child: HG01493
+
+        '119':
+                mother: HG01495
+                father: HG01494
+                child: HG01496
+
+        '120':
+                mother: HG01498
+                father: HG01497
+                child: HG01499
+
+        '121':
+                mother: HG01501
+                father: HG01500
+                child: HG01502
+
+        '122':
+                mother: HG01504
+                father: HG01503
+                child: HG01505
+
+        '123':
+                mother: HG01507
+                father: HG01506
+                child: HG01508
+
+        '124':
+                mother: HG01510
+                father: HG01509
+                child: HG01511
+
+        '125':
+                mother: HG01513
+                father: HG01512
+                child: HG01514
+
+        '126':
+                mother: HG01516
+                father: HG01515
+                child: HG01517
+
+        '127':
+                mother: HG01519
+                father: HG01518
+                child: HG01520
+
+        '128':
+                mother: HG01522
+                father: HG01521
+                child: HG01523
+
+        '129':
+                mother: HG01525
+                father: HG01524
+                child: HG01526
+
+        '130':
+                mother: HG01528
+                father: HG01527
+                child: HG01529
+
+        '131':
+                mother: HG01531
+                father: HG01530
+                child: HG01532
+
+        '132':
+                mother: HG01537
+                father: HG01536
+                child: HG01538
+
+        '133':
+                mother: HG01551
+                father: HG01550
+                child: HG01552
+
+        '134':
+                mother: HG01566
+                father: HG01565
+                child: HG01567
+
+        '135':
+                mother: HG01572
+                father: HG01571
+                child: HG01573
+
+        '136':
+                mother: HG01578
+                father: HG01577
+                child: HG01579
+
+        '137':
+                mother: HG01602
+                father: HG01603
+                child: HG01601
+
+        '138':
+                mother: HG01605
+                father: HG01606
+                child: HG01604
+
+        '139':
+                mother: HG01607
+                father: HG01608
+                child: HG01609
+
+        '140':
+                mother: HG01612
+                father: HG01610
+                child: HG01611
+
+        '141':
+                mother: HG01613
+                father: HG01615
+                child: HG01614
+
+        '142':
+                mother: HG01618
+                father: HG01617
+                child: HG01616
+
+        '143':
+                mother: HG01620
+                father: HG01619
+                child: HG01621
+
+        '144':
+                mother: HG01623
+                father: HG01624
+                child: HG01622
+
+        '145':
+                mother: HG01626
+                father: HG01625
+                child: HG01627
+
+        '146':
+                mother: HG01628
+                father: HG01630
+                child: HG01629
+
+        '147':
+                mother: HG01632
+                father: HG01631
+                child: HG01633
+
+        '148':
+                mother: HG01668
+                father: HG01669
+                child: HG01667
+
+        '149':
+                mother: HG01670
+                father: HG01672
+                child: HG01671
+
+        '150':
+                mother: HG01673
+                father: HG01675
+                child: HG01674
+
+        '151':
+                mother: HG01676
+                father: HG01678
+                child: HG01677
+
+        '152':
+                mother: HG01679
+                father: HG01680
+                child: HG01681
+
+        '153':
+                mother: HG01684
+                father: HG01682
+                child: HG01683
+
+        '154':
+                mother: HG01685
+                father: HG01686
+                child: HG01687
+
+        '155':
+                mother: HG01695
+                father: HG01694
+                child: HG01696
+
+        '156':
+                mother: HG01697
+                father: HG01699
+                child: HG01698
+
+        '157':
+                mother: HG01702
+                father: HG01700
+                child: HG01701
+
+        '158':
+                mother: HG01704
+                father: HG01705
+                child: HG01703
+
+        '159':
+                mother: HG01707
+                father: HG01708
+                child: HG01706
+
+        '160':
+                mother: HG01710
+                father: HG01709
+                child: HG01711
+
+        '161':
+                mother: HG01746
+                father: HG01747
+                child: HG01748
+
+        '162':
+                mother: HG01757
+                father: HG01756
+                child: HG01755
+
+        '163':
+                mother: HG01762
+                father: HG01761
+                child: HG01763
+
+        '164':
+                mother: HG01770
+                father: HG01771
+                child: HG01772
+
+        '165':
+                mother: HG01773
+                father: HG01775
+                child: HG01774
+
+        '166':
+                mother: HG01776
+                father: HG01777
+                child: HG01778
+
+        '167':
+                mother: HG01779
+                father: HG01781
+                child: HG01780
+
+        '168':
+                mother: HG01784
+                father: HG01783
+                child: HG01782
+
+        '169':
+                mother: HG01880
+                father: HG01879
+                child: HG01881
+
+        '170':
+                mother: HG01956
+                father: HG01885
+                child: HG01884
+
+        '171':
+                mother: HG01886
+                father: HG02014
+                child: HG01887
+
+        '172':
+                mother: HG01883
+                father: HG01882
+                child: HG01888
+
+        '173':
+                mother: HG01889
+                father: HG01890
+                child: HG01891
+
+        '174':
+                mother: HG01894
+                father: HG01912
+                child: HG01895
+
+        '175':
+                mother: HG01896
+                father: HG02013
+                child: HG01897
+
+        '176':
+                mother: HG01893
+                father: HG01892
+                child: HG01898
+
+        '177':
+                mother: HG01915
+                father: HG01914
+                child: HG01916
+
+        '178':
+                mother: HG01918
+                father: HG01917
+                child: HG01919
+
+        '179':
+                mother: HG01921
+                father: HG01920
+                child: HG01922
+
+        '180':
+                mother: HG01924
+                father: HG01923
+                child: HG01925
+
+        '181':
+                mother: HG01927
+                father: HG01926
+                child: HG01928
+
+        '182':
+                mother: HG01933
+                father: HG01932
+                child: HG01934
+
+        '183':
+                mother: HG01936
+                father: HG01935
+                child: HG01937
+
+        '184':
+                mother: HG01939
+                father: HG01938
+                child: HG01940
+
+        '185':
+                mother: HG01942
+                father: HG01941
+                child: HG01943
+
+        '186':
+                mother: HG01945
+                father: HG01944
+                child: HG01946
+
+        '187':
+                mother: HG01948
+                father: HG01947
+                child: HG01949
+
+        '188':
+                mother: HG01951
+                father: HG01950
+                child: HG01952
+
+        '189':
+                mother: HG01954
+                father: HG01953
+                child: HG01955
+
+        '190':
+                mother: HG01958
+                father: HG01986
+                child: HG01959
+
+        '191':
+                mother: HG01989
+                father: HG01988
+                child: HG01960
+
+        '192':
+                mother: HG01968
+                father: HG01967
+                child: HG01969
+
+        '193':
+                mother: HG01971
+                father: HG01970
+                child: HG01972
+
+        '194':
+                mother: HG01973
+                father: HG01974
+                child: HG01975
+
+        '195':
+                mother: HG01976
+                father: HG01977
+                child: HG01978
+
+        '196':
+                mother: HG01980
+                father: HG01979
+                child: HG01981
+
+        '197':
+                mother: HG01983
+                father: HG01982
+                child: HG01984
+
+        '198':
+                mother: HG02012
+                father: HG01990
+                child: HG01987
+
+        '199':
+                mother: HG01992
+                father: HG01991
+                child: HG01993
+
+        '200':
+                mother: HG01997
+                father: HG02008
+                child: HG01998
+
+        '201':
+                mother: HG02003
+                father: HG02002
+                child: HG02004
+
+        '202':
+                mother: HG02010
+                father: HG02009
+                child: HG02011
+
+        '203':
+                mother: HG02016
+                father: HG02017
+                child: HG02015
+
+        '204':
+                mother: HG02019
+                father: HG02020
+                child: HG02018
+
+        '205':
+                mother: HG02025
+                father: HG02026
+                child: HG02024
+
+        '206':
+                mother: HG02028
+                father: HG02029
+                child: HG02027
+
+        '207':
+                mother: HG02031
+                father: HG02032
+                child: HG02030
+
+        '208':
+                mother: HG02054
+                father: HG02053
+                child: HG02055
+
+        '209':
+                mother: HG02057
+                father: HG02058
+                child: HG02056
+
+        '210':
+                mother: HG02060
+                father: HG02061
+                child: HG02059
+
+        '211':
+                mother: HG02069
+                father: HG02070
+                child: HG02068
+
+        '212':
+                mother: HG02072
+                father: HG02073
+                child: HG02071
+
+        '213':
+                mother: HG02075
+                father: HG02076
+                child: HG02074
+
+        '214':
+                mother: HG02078
+                father: HG02079
+                child: HG02077
+
+        '215':
+                mother: HG02081
+                father: HG02082
+                child: HG02080
+
+        '216':
+                mother: HG02084
+                father: HG02085
+                child: HG02083
+
+        '217':
+                mother: HG02089
+                father: HG02090
+                child: HG02091
+
+        '218':
+                mother: HG02105
+                father: HG02104
+                child: HG02106
+
+        '219':
+                mother: HG02121
+                father: HG02122
+                child: HG02120
+
+        '220':
+                mother: HG02127
+                father: HG02128
+                child: HG02126
+
+        '221':
+                mother: HG02130
+                father: HG02131
+                child: HG02129
+
+        '222':
+                mother: HG02133
+                father: HG02134
+                child: HG02132
+
+        '223':
+                mother: HG02136
+                father: HG02137
+                child: HG02135
+
+        '224':
+                mother: HG02144
+                father: HG02143
+                child: HG02145
+
+        '225':
+                mother: HG02147
+                father: HG02146
+                child: HG02148
+
+        '226':
+                mother: HG02220
+                father: HG02221
+                child: HG02222
+
+        '227':
+                mother: HG02223
+                father: HG02224
+                child: HG02225
+
+        '228':
+                mother: HG02230
+                father: HG02231
+                child: HG02229
+
+        '229':
+                mother: HG02232
+                father: HG02233
+                child: HG02234
+
+        '230':
+                mother: HG02235
+                father: HG02236
+                child: HG02237
+
+        '231':
+                mother: HG02239
+                father: HG02238
+                child: HG02240
+
+        '232':
+                mother: HG02256
+                father: HG02255
+                child: HG02257
+
+        '233':
+                mother: HG02315
+                father: HG02314
+                child: HG02258
+
+        '234':
+                mother: HG02260
+                father: HG02259
+                child: HG02261
+
+        '235':
+                mother: HG02272
+                father: HG02271
+                child: HG02273
+
+        '236':
+                mother: HG02278
+                father: HG02277
+                child: HG02279
+
+        '237':
+                mother: HG02308
+                father: HG02307
+                child: HG02280
+
+        '238':
+                mother: HG02286
+                father: HG02285
+                child: HG02287
+
+        '239':
+                mother: HG02292
+                father: HG02291
+                child: HG02293
+
+        '240':
+                mother: HG02298
+                father: HG02299
+                child: HG02300
+
+        '241':
+                mother: HG02301
+                father: HG02302
+                child: HG02303
+
+        '242':
+                mother: HG02318
+                father: HG02317
+                child: HG02316
+
+        '243':
+                mother: HG02282
+                father: HG02281
+                child: HG02321
+
+        '244':
+                mother: HG02450
+                father: HG02449
+                child: HG02451
+
+        '245':
+                mother: HG02462
+                father: HG02461
+                child: HG02463
+
+        '246':
+                mother: HG02465
+                father: HG02464
+                child: HG02466
+
+        '247':
+                mother: HG02491
+                father: HG02490
+                child: HG02492
+
+        '248':
+                mother: HG02494
+                father: HG02493
+                child: HG02495
+
+        '249':
+                mother: HG02513
+                father: HG02512
+                child: HG02514
+
+        '250':
+                mother: HG02522
+                father: HG02521
+                child: HG02523
+
+        '251':
+                mother: HG02525
+                father: HG02524
+                child: HG02526
+
+        '252':
+                mother: HG02562
+                father: HG02561
+                child: HG02563
+
+        '253':
+                mother: HG02571
+                father: HG02570
+                child: HG02572
+
+        '254':
+                mother: HG02574
+                father: HG02573
+                child: HG02575
+
+        '255':
+                mother: HG02583
+                father: HG02582
+                child: HG02584
+
+        '256':
+                mother: HG02586
+                father: HG02585
+                child: HG02587
+
+        '257':
+                mother: HG02589
+                father: HG02588
+                child: HG02590
+
+        '258':
+                mother: HG02595
+                father: HG02594
+                child: HG02596
+
+        '259':
+                mother: HG02601
+                father: HG02600
+                child: HG02602
+
+        '260':
+                mother: HG02604
+                father: HG02603
+                child: HG02605
+
+        '261':
+                mother: HG02611
+                father: HG02610
+                child: HG02612
+
+        '262':
+                mother: HG02614
+                father: HG02613
+                child: HG02615
+
+        '263':
+                mother: HG02621
+                father: HG02620
+                child: HG02622
+
+        '264':
+                mother: HG02624
+                father: HG02623
+                child: HG02625
+
+        '265':
+                mother: HG02629
+                father: HG02628
+                child: HG02630
+
+        '266':
+                mother: HG02635
+                father: HG02634
+                child: HG02636
+
+        '267':
+                mother: HG02643
+                father: HG02642
+                child: HG02644
+
+        '268':
+                mother: HG02646
+                father: HG02645
+                child: HG02647
+
+        '269':
+                mother: HG02649
+                father: HG02648
+                child: HG02650
+
+        '270':
+                mother: HG02652
+                father: HG02651
+                child: HG02653
+
+        '271':
+                mother: HG02655
+                father: HG02654
+                child: HG02656
+
+        '272':
+                mother: HG02658
+                father: HG02657
+                child: HG02659
+
+        '273':
+                mother: HG02661
+                father: HG02660
+                child: HG02662
+
+        '274':
+                mother: HG02667
+                father: HG02666
+                child: HG02668
+
+        '275':
+                mother: HG02676
+                father: HG02675
+                child: HG02677
+
+        '276':
+                mother: HG02679
+                father: HG02678
+                child: HG02680
+
+        '277':
+                mother: HG02682
+                father: HG02681
+                child: HG02683
+
+        '278':
+                mother: HG02685
+                father: HG02684
+                child: HG02686
+
+        '279':
+                mother: HG02688
+                father: HG02687
+                child: HG02689
+
+        '280':
+                mother: HG02691
+                father: HG02690
+                child: HG02692
+
+        '281':
+                mother: HG02697
+                father: HG02696
+                child: HG02698
+
+        '282':
+                mother: HG02700
+                father: HG02699
+                child: HG02701
+
+        '283':
+                mother: HG02703
+                father: HG02702
+                child: HG02704
+
+        '284':
+                mother: HG02716
+                father: HG02715
+                child: HG02717
+
+        '285':
+                mother: HG02722
+                father: HG02721
+                child: HG02723
+
+        '286':
+                mother: HG02725
+                father: HG02724
+                child: HG02726
+
+        '287':
+                mother: HG02728
+                father: HG02727
+                child: HG02729
+
+        '288':
+                mother: HG02734
+                father: HG02733
+                child: HG02735
+
+        '289':
+                mother: HG02737
+                father: HG02736
+                child: HG02738
+
+        '290':
+                mother: HG02760
+                father: HG02759
+                child: HG02761
+
+        '291':
+                mother: HG02763
+                father: HG02762
+                child: HG02764
+
+        '292':
+                mother: HG02769
+                father: HG02768
+                child: HG02770
+
+        '293':
+                mother: HG02772
+                father: HG02771
+                child: HG02773
+
+        '294':
+                mother: HG02775
+                father: HG02774
+                child: HG02776
+
+        '295':
+                mother: HG02784
+                father: HG02783
+                child: HG02785
+
+        '296':
+                mother: HG02787
+                father: HG02786
+                child: HG02788
+
+        '297':
+                mother: HG02790
+                father: HG02789
+                child: HG02791
+
+        '298':
+                mother: HG02793
+                father: HG02792
+                child: HG02794
+
+        '299':
+                mother: HG02799
+                father: HG02798
+                child: HG02800
+
+        '300':
+                mother: HG02805
+                father: HG02804
+                child: HG02806
+
+        '301':
+                mother: HG02808
+                father: HG02807
+                child: HG02809
+
+        '302':
+                mother: HG02811
+                father: HG02810
+                child: HG02812
+
+        '303':
+                mother: HG02814
+                father: HG02813
+                child: HG02815
+
+        '304':
+                mother: HG02817
+                father: HG02816
+                child: HG02818
+
+        '305':
+                mother: HG02820
+                father: HG02819
+                child: HG02821
+
+        '306':
+                mother: HG02837
+                father: HG02836
+                child: HG02838
+
+        '307':
+                mother: HG02840
+                father: HG02839
+                child: HG02841
+
+        '308':
+                mother: HG02852
+                father: HG02851
+                child: HG02853
+
+        '309':
+                mother: HG02855
+                father: HG02854
+                child: HG02856
+
+        '310':
+                mother: HG02861
+                father: HG02860
+                child: HG02862
+
+        '311':
+                mother: HG02870
+                father: HG02869
+                child: HG02871
+
+        '312':
+                mother: HG02879
+                father: HG02878
+                child: HG02880
+
+        '313':
+                mother: HG02882
+                father: HG02881
+                child: HG02883
+
+        '314':
+                mother: HG02885
+                father: HG02884
+                child: HG02886
+
+        '315':
+                mother: HG02888
+                father: HG02887
+                child: HG02889
+
+        '316':
+                mother: HG02891
+                father: HG02890
+                child: HG02892
+
+        '317':
+                mother: HG02896
+                father: HG02895
+                child: HG02897
+
+        '318':
+                mother: HG02922
+                father: HG02923
+                child: HG02924
+
+        '319':
+                mother: HG02943
+                father: HG02944
+                child: HG02945
+
+        '320':
+                mother: HG02946
+                father: HG02947
+                child: HG02948
+
+        '321':
+                mother: HG02952
+                father: HG02953
+                child: HG02954
+
+        '322':
+                mother: HG02964
+                father: HG02965
+                child: HG02966
+
+        '323':
+                mother: HG02970
+                father: HG02971
+                child: HG02972
+
+        '324':
+                mother: HG02974
+                father: HG02973
+                child: HG02975
+
+        '325':
+                mother: HG02976
+                father: HG02977
+                child: HG02978
+
+        '326':
+                mother: HG02979
+                father: HG02981
+                child: HG02980
+
+        '327':
+                mother: HG02983
+                father: HG02982
+                child: HG02984
+
+        '328':
+                mother: HG03007
+                father: HG03006
+                child: HG03008
+
+        '329':
+                mother: HG03016
+                father: HG03015
+                child: HG03017
+
+        '330':
+                mother: HG03025
+                father: HG03024
+                child: HG03026
+
+        '331':
+                mother: HG03028
+                father: HG03027
+                child: HG03029
+
+        '332':
+                mother: HG03034
+                father: HG03033
+                child: HG03035
+
+        '333':
+                mother: HG03040
+                father: HG03039
+                child: HG03041
+
+        '334':
+                mother: HG03046
+                father: HG03045
+                child: HG03047
+
+        '335':
+                mother: HG03049
+                father: HG03048
+                child: HG03050
+
+        '336':
+                mother: HG03055
+                father: HG03054
+                child: HG03056
+
+        '337':
+                mother: HG03064
+                father: HG03063
+                child: HG03065
+
+        '338':
+                mother: HG03097
+                father: HG03096
+                child: HG03098
+
+        '339':
+                mother: HG03099
+                father: HG03100
+                child: HG03101
+
+        '340':
+                mother: HG03108
+                father: HG03109
+                child: HG03110
+
+        '341':
+                mother: HG03111
+                father: HG03112
+                child: HG03113
+
+        '342':
+                mother: HG03114
+                father: HG03115
+                child: HG03116
+
+        '343':
+                mother: HG03117
+                father: HG03118
+                child: HG03119
+
+        '344':
+                mother: HG03121
+                father: HG03120
+                child: HG03122
+
+        '345':
+                mother: HG03123
+                father: HG03124
+                child: HG03125
+
+        '346':
+                mother: HG03126
+                father: HG03127
+                child: HG03128
+
+        '347':
+                mother: HG03129
+                father: HG03130
+                child: HG03131
+
+        '348':
+                mother: HG03132
+                father: HG03133
+                child: HG03134
+
+        '349':
+                mother: HG03135
+                father: HG03136
+                child: HG03137
+
+        '350':
+                mother: HG03159
+                father: HG03160
+                child: HG03161
+
+        '351':
+                mother: HG03162
+                father: HG03163
+                child: HG03164
+
+        '352':
+                mother: HG03168
+                father: HG03169
+                child: HG03170
+
+        '353':
+                mother: HG03189
+                father: HG03190
+                child: HG03191
+
+        '354':
+                mother: HG03195
+                father: HG03196
+                child: HG03197
+
+        '355':
+                mother: HG03198
+                father: HG03199
+                child: HG03200
+
+        '356':
+                mother: HG03229
+                father: HG03228
+                child: HG03230
+
+        '357':
+                mother: HG03235
+                father: HG03234
+                child: HG03236
+
+        '358':
+                mother: HG03238
+                father: HG03237
+                child: HG03239
+
+        '359':
+                mother: HG03241
+                father: HG03240
+                child: HG03242
+
+        '360':
+                mother: HG03247
+                father: HG03246
+                child: HG03248
+
+        '361':
+                mother: HG03250
+                father: HG03249
+                child: HG03251
+
+        '362':
+                mother: HG03259
+                father: HG03258
+                child: HG03260
+
+        '363':
+                mother: HG03267
+                father: HG03268
+                child: HG03269
+
+        '364':
+                mother: HG03270
+                father: HG03271
+                child: HG03272
+
+        '365':
+                mother: HG03294
+                father: HG03295
+                child: HG03296
+
+        '366':
+                mother: HG03297
+                father: HG03298
+                child: HG03299
+
+        '367':
+                mother: HG03300
+                father: HG03301
+                child: HG03302
+
+        '368':
+                mother: HG03303
+                father: HG03304
+                child: HG03305
+
+        '369':
+                mother: HG03306
+                father: HG03307
+                child: HG03308
+
+        '370':
+                mother: HG03309
+                father: HG03311
+                child: HG03310
+
+        '371':
+                mother: HG03312
+                father: HG03313
+                child: HG03314
+
+        '372':
+                mother: HG03342
+                father: HG03343
+                child: HG03344
+
+        '373':
+                mother: HG03351
+                father: HG03352
+                child: HG03350
+
+        '374':
+                mother: HG03366
+                father: HG03367
+                child: HG03368
+
+        '375':
+                mother: HG03369
+                father: HG03370
+                child: HG03371
+
+        '376':
+                mother: HG03372
+                father: HG03373
+                child: HG03374
+
+        '377':
+                mother: HG03470
+                father: HG03469
+                child: HG03438
+
+        '378':
+                mother: HG03452
+                father: HG03451
+                child: HG03453
+
+        '379':
+                mother: HG03455
+                father: HG03454
+                child: HG03456
+
+        '380':
+                mother: HG03479
+                father: HG03478
+                child: HG03480
+
+        '381':
+                mother: HG03485
+                father: HG03484
+                child: HG03486
+
+        '382':
+                mother: HG03488
+                father: HG03487
+                child: HG03489
+
+        '383':
+                mother: HG03491
+                father: HG03490
+                child: HG03492
+
+        '384':
+                mother: HG03514
+                father: HG03515
+                child: HG03516
+
+        '385':
+                mother: HG03517
+                father: HG03518
+                child: HG03519
+
+        '386':
+                mother: HG03520
+                father: HG03521
+                child: HG03522
+
+        '387':
+                mother: HG03539
+                father: HG03538
+                child: HG03540
+
+        '388':
+                mother: HG03575
+                father: HG03574
+                child: HG03576
+
+        '389':
+                mother: HG03578
+                father: HG03577
+                child: HG03579
+
+        '390':
+                mother: HG03583
+                father: HG03582
+                child: HG03584
+
+        '391':
+                mother: HG03595
+                father: HG03594
+                child: HG03596
+
+        '392':
+                mother: HG03607
+                father: HG03606
+                child: HG03605
+
+        '393':
+                mother: HG03616
+                father: HG03615
+                child: HG03617
+
+        '394':
+                mother: HG03619
+                father: HG03618
+                child: HG03620
+
+        '395':
+                mother: HG03625
+                father: HG03624
+                child: HG03626
+
+        '396':
+                mother: HG03634
+                father: HG03633
+                child: HG03635
+
+        '397':
+                mother: HG03640
+                father: HG03639
+                child: HG03641
+
+        '398':
+                mother: HG03650
+                father: HG03649
+                child: HG03651
+
+        '399':
+                mother: HG03653
+                father: HG03652
+                child: HG03654
+
+        '400':
+                mother: HG03668
+                father: HG03667
+                child: HG03669
+
+        '401':
+                mother: HG03684
+                father: HG03682
+                child: HG03683
+
+        '402':
+                mother: HG03886
+                father: HG03885
+                child: HG03688
+
+        '403':
+                mother: HG03700
+                father: HG03699
+                child: HG03701
+
+        '404':
+                mother: HG03703
+                father: HG03702
+                child: HG03704
+
+        '405':
+                mother: HG03706
+                father: HG03705
+                child: HG03707
+
+        '406':
+                mother: HG03709
+                father: HG03708
+                child: HG03710
+
+        '407':
+                mother: HG03722
+                father: HG03725
+                child: HG03719
+
+        '408':
+                mother: HG03721
+                father: HG03727
+                child: HG03732
+
+        '409':
+                mother: HG03762
+                father: HG03761
+                child: HG03763
+
+        '410':
+                mother: HG03793
+                father: HG03794
+                child: HG03795
+
+        '411':
+                mother: HG03796
+                father: HG03797
+                child: HG03798
+
+        '412':
+                mother: HG03799
+                father: HG03800
+                child: HG03801
+
+        '413':
+                mother: HG03802
+                father: HG03803
+                child: HG03804
+
+        '414':
+                mother: HG03805
+                father: HG03806
+                child: HG03807
+
+        '415':
+                mother: HG03814
+                father: HG03815
+                child: HG03816
+
+        '416':
+                mother: HG03823
+                father: HG03824
+                child: HG03825
+
+        '417':
+                mother: HG03829
+                father: HG03830
+                child: HG03831
+
+        '418':
+                mother: HG03832
+                father: HG03833
+                child: HG03834
+
+        '419':
+                mother: HG03904
+                father: HG03905
+                child: HG03906
+
+        '420':
+                mother: HG03907
+                father: HG03908
+                child: HG03909
+
+        '421':
+                mother: HG03913
+                father: HG03914
+                child: HG03915
+
+        '422':
+                mother: HG03925
+                father: HG03926
+                child: HG03927
+
+        '423':
+                mother: HG03928
+                father: HG03929
+                child: HG03930
+
+        '424':
+                mother: HG03940
+                father: HG03941
+                child: HG03942
+
+        '425':
+                mother: HG03944
+                father: HG03943
+                child: HG03992
+
+        '426':
+                mother: HG03944
+                father: HG03943
+                child: HG04036
+
+        '427':
+                mother: HG03894
+                father: HG03896
+                child: HG04115
+
+        '428':
+                mother: HG04075
+                father: HG04127
+                child: HG04122
+
+        '429':
+                mother: HG04132
+                father: HG04131
+                child: HG04133
+
+        '430':
+                mother: HG04135
+                father: HG04134
+                child: HG04136
+
+        '431':
+                mother: HG04141
+                father: HG04140
+                child: HG04142
+
+        '432':
+                mother: HG04147
+                father: HG04146
+                child: HG04148
+
+        '433':
+                mother: HG04150
+                father: HG04149
+                child: HG04151
+
+        '434':
+                mother: HG04156
+                father: HG04155
+                child: HG04157
+
+        '435':
+                mother: HG04159
+                father: HG04158
+                child: HG04160
+
+        '436':
+                mother: HG04174
+                father: HG04173
+                child: HG04175
+
+        '437':
+                mother: HG04183
+                father: HG04182
+                child: HG04184
+
+        '438':
+                mother: HG04186
+                father: HG04185
+                child: HG04187
+
+        '439':
+                mother: HG04192
+                father: HG04191
+                child: HG04193
+
+        '440':
+                mother: HG04099
+                father: HG04100
+                child: HG04199
+
+        '441':
+                mother: HG03642
+                father: HG03679
+                child: HG04204
+
+        '442':
+                mother: HG03642
+                father: HG03679
+                child: HG04215
+
+        '443':
+                mother: HG04200
+                father: HG04198
+                child: HG04217
+
+        '444':
+                mother: HG04227
+                father: HG04229
+                child: HG04228
+
+        '445':
+                mother: NA06985
+                father: NA06993
+                child: NA06991
+
+        '446':
+                mother: NA07037
+                father: NA07435
+                child: NA06995
+
+        '447':
+                mother: NA07045
+                father: NA06986
+                child: NA06997
+
+        '448':
+                mother: NA07031
+                father: NA07051
+                child: NA07014
+
+        '449':
+                mother: NA07056
+                father: NA07022
+                child: NA07019
+
+        '450':
+                mother: NA07000
+                father: NA06994
+                child: NA07029
+
+        '451':
+                mother: NA07055
+                father: NA07034
+                child: NA07048
+
+        '452':
+                mother: NA07345
+                father: NA07357
+                child: NA07348
+
+        '453':
+                mother: NA07346
+                father: NA07347
+                child: NA07349
+
+        '454':
+                mother: NA12236
+                father: NA12154
+                child: NA10830
+
+        '455':
+                mother: NA12156
+                father: NA12155
+                child: NA10831
+
+        '456':
+                mother: NA12249
+                father: NA12248
+                child: NA10835
+
+        '457':
+                mother: NA12275
+                father: NA12274
+                child: NA10836
+
+        '458':
+                mother: NA12273
+                father: NA12272
+                child: NA10837
+
+        '459':
+                mother: NA12004
+                father: NA12003
+                child: NA10838
+
+        '460':
+                mother: NA12006
+                father: NA12005
+                child: NA10839
+
+        '461':
+                mother: NA12287
+                father: NA12286
+                child: NA10840
+
+        '462':
+                mother: NA11918
+                father: NA11917
+                child: NA10842
+
+        '463':
+                mother: NA11920
+                father: NA11919
+                child: NA10843
+
+        '464':
+                mother: NA11931
+                father: NA11930
+                child: NA10845
+
+        '465':
+                mother: NA12145
+                father: NA12144
+                child: NA10846
+
+        '466':
+                mother: NA12239
+                father: NA12146
+                child: NA10847
+
+        '467':
+                mother: NA12057
+                father: NA12056
+                child: NA10851
+
+        '468':
+                mother: NA12046
+                father: NA12045
+                child: NA10852
+
+        '469':
+                mother: NA11840
+                father: NA11839
+                child: NA10854
+
+        '470':
+                mother: NA11832
+                father: NA11831
+                child: NA10855
+
+        '471':
+                mother: NA11830
+                father: NA11829
+                child: NA10856
+
+        '472':
+                mother: NA12044
+                father: NA12043
+                child: NA10857
+
+        '473':
+                mother: NA11882
+                father: NA11881
+                child: NA10859
+
+        '474':
+                mother: NA11993
+                father: NA11992
+                child: NA10860
+
+        '475':
+                mother: NA11995
+                father: NA11994
+                child: NA10861
+
+        '476':
+                mother: NA12234
+                father: NA12264
+                child: NA10863
+
+        '477':
+                mother: NA11894
+                father: NA11893
+                child: NA10864
+
+        '478':
+                mother: NA11892
+                father: NA11891
+                child: NA10865
+
+        '479':
+                mother: NA06989
+                father: NA06984
+                child: NA12329
+
+        '480':
+                mother: NA12341
+                father: NA12340
+                child: NA12335
+
+        '481':
+                mother: NA12343
+                father: NA12342
+                child: NA12336
+
+        '482':
+                mother: NA12348
+                father: NA12347
+                child: NA12344
+
+        '483':
+                mother: NA12489
+                father: NA12546
+                child: NA12376
+
+        '484':
+                mother: NA12400
+                father: NA12399
+                child: NA12386
+
+        '485':
+                mother: NA12414
+                father: NA12413
+                child: NA12485
+
+        '486':
+                mother: NA12717
+                father: NA12716
+                child: NA12707
+
+        '487':
+                mother: NA12749
+                father: NA12748
+                child: NA12739
+
+        '488':
+                mother: NA12751
+                father: NA12750
+                child: NA12740
+
+        '489':
+                mother: NA12761
+                father: NA12760
+                child: NA12752
+
+        '490':
+                mother: NA12763
+                father: NA12762
+                child: NA12753
+
+        '491':
+                mother: NA12776
+                father: NA12775
+                child: NA12766
+
+        '492':
+                mother: NA12778
+                father: NA12777
+                child: NA12767
+
+        '493':
+                mother: NA12813
+                father: NA12812
+                child: NA12801
+
+        '494':
+                mother: NA12815
+                father: NA12814
+                child: NA12802
+
+        '495':
+                mother: NA12828
+                father: NA12827
+                child: NA12817
+
+        '496':
+                mother: NA12830
+                father: NA12829
+                child: NA12818
+
+        '497':
+                mother: NA12843
+                father: NA12842
+                child: NA12832
+
+        '498':
+                mother: NA12873
+                father: NA12872
+                child: NA12864
+
+        '499':
+                mother: NA12875
+                father: NA12874
+                child: NA12865
+
+        '500':
+                mother: NA12890
+                father: NA12889
+                child: NA12877
+
+        '501':
+                mother: NA12892
+                father: NA12891
+                child: NA12878
+
+        '502':
+                mother: NA18488
+                father: NA18486
+                child: NA18484
+
+        '503':
+                mother: NA18489
+                father: NA18487
+                child: NA18485
+
+        '504':
+                mother: NA18499
+                father: NA18498
+                child: NA18497
+
+        '505':
+                mother: NA18502
+                father: NA18501
+                child: NA18500
+
+        '506':
+                mother: NA18505
+                father: NA18504
+                child: NA18503
+
+        '507':
+                mother: NA18508
+                father: NA18507
+                child: NA18506
+
+        '508':
+                mother: NA18517
+                father: NA18516
+                child: NA18515
+
+        '509':
+                mother: NA18520
+                father: NA18519
+                child: NA18518
+
+        '510':
+                mother: NA18523
+                father: NA18522
+                child: NA18521
+
+        '511':
+                mother: NA18852
+                father: NA18853
+                child: NA18854
+
+        '512':
+                mother: NA18855
+                father: NA18856
+                child: NA18857
+
+        '513':
+                mother: NA18858
+                father: NA18859
+                child: NA18860
+
+        '514':
+                mother: NA18861
+                father: NA18862
+                child: NA18863
+
+        '515':
+                mother: NA18867
+                father: NA18868
+                child: NA18869
+
+        '516':
+                mother: NA18870
+                father: NA18871
+                child: NA18872
+
+        '517':
+                mother: NA18873
+                father: NA18874
+                child: NA18875
+
+        '518':
+                mother: NA18876
+                father: NA18877
+                child: NA18906
+
+        '519':
+                mother: NA18909
+                father: NA18910
+                child: NA18911
+
+        '520':
+                mother: NA18912
+                father: NA18913
+                child: NA18914
+
+        '521':
+                mother: NA18924
+                father: NA18923
+                child: NA18925
+
+        '522':
+                mother: NA18916
+                father: NA18917
+                child: NA18930
+
+        '523':
+                mother: NA18933
+                father: NA18934
+                child: NA18935
+
+        '524':
+                mother: NA19093
+                father: NA19092
+                child: NA19094
+
+        '525':
+                mother: NA19095
+                father: NA19096
+                child: NA19097
+
+        '526':
+                mother: NA19099
+                father: NA19098
+                child: NA19100
+
+        '527':
+                mother: NA19102
+                father: NA19101
+                child: NA19103
+
+        '528':
+                mother: NA19108
+                father: NA19107
+                child: NA19109
+
+        '529':
+                mother: NA19114
+                father: NA19113
+                child: NA19115
+
+        '530':
+                mother: NA19116
+                father: NA19119
+                child: NA19120
+
+        '531':
+                mother: NA19122
+                father: NA19121
+                child: NA19123
+
+        '532':
+                mother: NA19127
+                father: NA19128
+                child: NA19129
+
+        '533':
+                mother: NA19131
+                father: NA19130
+                child: NA19132
+
+        '534':
+                mother: NA19137
+                father: NA19138
+                child: NA19139
+
+        '535':
+                mother: NA19140
+                father: NA19141
+                child: NA19142
+
+        '536':
+                mother: NA19143
+                father: NA19144
+                child: NA19145
+
+        '537':
+                mother: NA19147
+                father: NA19146
+                child: NA19148
+
+        '538':
+                mother: NA19149
+                father: NA19150
+                child: NA19151
+
+        '539':
+                mother: NA19152
+                father: NA19153
+                child: NA19154
+
+        '540':
+                mother: NA19159
+                father: NA19160
+                child: NA19161
+
+        '541':
+                mother: NA19172
+                father: NA19171
+                child: NA19173
+
+        '542':
+                mother: NA19118
+                father: NA19117
+                child: NA19174
+
+        '543':
+                mother: NA19176
+                father: NA19175
+                child: NA19177
+
+        '544':
+                mother: NA19185
+                father: NA19184
+                child: NA19186
+
+        '545':
+                mother: NA19190
+                father: NA19189
+                child: NA19191
+
+        '546':
+                mother: NA19197
+                father: NA19198
+                child: NA19199
+
+        '547':
+                mother: NA19201
+                father: NA19200
+                child: NA19202
+
+        '548':
+                mother: NA19204
+                father: NA19203
+                child: NA19205
+
+        '549':
+                mother: NA19206
+                father: NA19207
+                child: NA19208
+
+        '550':
+                mother: NA19209
+                father: NA19210
+                child: NA19211
+
+        '551':
+                mother: NA19214
+                father: NA19213
+                child: NA19215
+
+        '552':
+                mother: NA19222
+                father: NA19223
+                child: NA19221
+
+        '553':
+                mother: NA19225
+                father: NA19226
+                child: NA19224
+
+        '554':
+                mother: NA19235
+                father: NA19236
+                child: NA19237
+
+        '555':
+                mother: NA19238
+                father: NA19239
+                child: NA19240
+
+        '556':
+                mother: NA19247
+                father: NA19248
+                child: NA19249
+
+        '557':
+                mother: NA19257
+                father: NA19256
+                child: NA19258
+
+        '558':
+                mother: NA19648
+                father: NA19649
+                child: NA19650
+
+        '559':
+                mother: NA19651
+                father: NA19652
+                child: NA19653
+
+        '560':
+                mother: NA19654
+                father: NA19655
+                child: NA19656
+
+        '561':
+                mother: NA19657
+                father: NA19658
+                child: NA19659
+
+        '562':
+                mother: NA19660
+                father: NA19661
+                child: NA19662
+
+        '563':
+                mother: NA19663
+                father: NA19664
+                child: NA19665
+
+        '564':
+                mother: NA19669
+                father: NA19670
+                child: NA19671
+
+        '565':
+                mother: NA19678
+                father: NA19679
+                child: NA19675
+
+        '566':
+                mother: NA19675
+                father: NA19676
+                child: NA19677
+
+        '567':
+                mother: NA19678
+                father: NA19679
+                child: NA19680
+
+        '568':
+                mother: NA19681
+                father: NA19682
+                child: NA19683
+
+        '569':
+                mother: NA19660
+                father: NA19661
+                child: NA19685
+
+        '570':
+                mother: NA19684
+                father: NA19685
+                child: NA19686
+
+        '571':
+                mother: NA19701
+                father: NA19700
+                child: NA19702
+
+        '572':
+                mother: NA19704
+                father: NA19703
+                child: NA19705
+
+        '573':
+                mother: NA19716
+                father: NA19717
+                child: NA19718
+
+        '574':
+                mother: NA19719
+                father: NA19720
+                child: NA19721
+
+        '575':
+                mother: NA19722
+                father: NA19723
+                child: NA19724
+
+        '576':
+                mother: NA19725
+                father: NA19726
+                child: NA19727
+
+        '577':
+                mother: NA19728
+                father: NA19729
+                child: NA19730
+
+        '578':
+                mother: NA19731
+                father: NA19732
+                child: NA19733
+
+        '579':
+                mother: NA19746
+                father: NA19747
+                child: NA19748
+
+        '580':
+                mother: NA19749
+                father: NA19750
+                child: NA19751
+
+        '581':
+                mother: NA19755
+                father: NA19756
+                child: NA19757
+
+        '582':
+                mother: NA19758
+                father: NA19759
+                child: NA19760
+
+        '583':
+                mother: NA19761
+                father: NA19762
+                child: NA19763
+
+        '584':
+                mother: NA19770
+                father: NA19771
+                child: NA19772
+
+        '585':
+                mother: NA19773
+                father: NA19774
+                child: NA19775
+
+        '586':
+                mother: NA19776
+                father: NA19777
+                child: NA19778
+
+        '587':
+                mother: NA19779
+                father: NA19780
+                child: NA19781
+
+        '588':
+                mother: NA19782
+                father: NA19783
+                child: NA19784
+
+        '589':
+                mother: NA19785
+                father: NA19786
+                child: NA19787
+
+        '590':
+                mother: NA19788
+                father: NA19789
+                child: NA19790
+
+        '591':
+                mother: NA19794
+                father: NA19795
+                child: NA19796
+
+        '592':
+                mother: NA19819
+                father: NA19818
+                child: NA19828
+
+        '593':
+                mother: NA19835
+                father: NA19834
+                child: NA19836
+
+        '594':
+                mother: NA19901
+                father: NA19900
+                child: NA19902
+
+        '595':
+                mother: NA19917
+                father: NA19916
+                child: NA19918
+
+        '596':
+                mother: NA19909
+                father: NA19908
+                child: NA19919
+
+        '597':
+                mother: NA19923
+                father: NA19922
+                child: NA19924
+
+        '598':
+                mother: NA19713
+                father: NA19982
+                child: NA19983
+
+        '599':
+                mother: NA20127
+                father: NA20126
+                child: NA20128
+
+        '600':
+                mother: NA19921
+                father: NA19920
+                child: NA20129
+
+        '601':
+                mother: NA20282
+                father: NA20278
+                child: NA20279
+
+        '602':
+                mother: NA20357
+                father: NA20356
+                child: NA20358
+
