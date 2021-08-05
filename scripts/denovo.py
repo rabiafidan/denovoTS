@@ -1,10 +1,10 @@
 #!/usr/local/bin/python
 
 #usage:
-#python denovo.py ['conventional','all'] ['child','all'] 'input.vcf.gz' 'child_name' 'output.denovo.vcf.gz'
+#python denovo.py [conventional|all] [child|all] input.vcf.gz child_name output.denovo.vcf.gz
 
 #ex:
-#python denovo.py 'conventional' 'child' 'variant_calls/trio1.vcf.gz' 'HG00404' 'denovo_calls/trio1.denovo.vcf.gz'
+#python denovo.py conventional child variant_calls/trio1.vcf.gz HG00404 denovo_calls/trio1.denovo.vcf.gz
 
 #child/all : output denovo vcf file contains only the child / child and the parents
 
