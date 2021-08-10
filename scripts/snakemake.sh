@@ -4,10 +4,9 @@
 #BSUB -q long   # queue
 #BSUB -e error.%J   # error file name in which %J is replaced by the job ID
 #BSUB -o output.%J  # output file name in which %J is replaced by the job ID
-#BSUB -J snakemake
+#BSUB -J s_failed
 #BSUB -M 2048
 
-#cd /hps/software/users/goldman/anaconda/anaconda3/bin/
 
 cd ..
 
