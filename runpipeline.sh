@@ -32,7 +32,8 @@ fi
 
 #download the table containing the cram file links from https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
 #You can also get the same list from the github repo:
-wget https://github.com/rabiafidan/denovoTS/blob/b029b11f4badec37d1493ac570b98ae567fb05c9/igsr_30x%20GRCh38.tsv
+#wget https://github.com/rabiafidan/denovoTS/blob/b029b11f4badec37d1493ac570b98ae567fb05c9/igsr_30x%20GRCh38.tsv
+#TRY THIS AFTER MAKING REPO PUBLIC
 
 #obtain cram file links of the individuals of the trios
 grep cram igsr_30x\ GRCh38.tsv | cut -f1 >links.txt
