@@ -1,11 +1,12 @@
 configfile: "config.yaml"
 
 #seq=range(1,603)  #trio index
-seq=range(2,301) #Rabia
+#seq=range(2,301) #Rabia
 #seq=range(301,603) #Conor
 
 
-trios=[x for x in seq]
+#trios=[x for x in seq]
+trios=[364,370,390,413,432,511,513,530,546,595]
 
 rule all:
 	input:
@@ -59,10 +60,10 @@ rule octopus:
 		err=lambda wildcards: "logs/octopus/err.trio" +wildcards.trio,
 		out=lambda wildcards: "logs/octopus/out.trio" +wildcards.trio
 	
-	threads: 49
+	threads: 95
 
 	resources:
-		mem_mb=51200
+		mem_mb=91200
 
 	shell:
                 "octopus -R {input.ref} -I {input.father} {input.mother} {input.child} -M {params.mum} -F {params.dad} -o {output} --threads {threads} \		--sequence-error-model PCR-FREE.NOVASEQ --read-linkage PAIRED -T chr1 to chrX"
