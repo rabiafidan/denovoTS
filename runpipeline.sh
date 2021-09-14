@@ -9,6 +9,12 @@
 #Data: High coverage 1KG trios
 #https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
 
+#download the reference fasta
+wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
+
+#index the reference fasta
+samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa
+
 #create a directory for data manipulation
 if [ ! -d data ]; then
     mkdir data;
@@ -32,20 +38,17 @@ fi
 
 #download the table containing the cram file links from https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
 #You can also get the same list from the github repo:
-#wget https://github.com/rabiafidan/denovoTS/blob/b029b11f4badec37d1493ac570b98ae567fb05c9/igsr_30x%20GRCh38.tsv
-#TRY THIS AFTER MAKING REPO PUBLIC
+wget https://raw.githubusercontent.com/rabiafidan/denovoTS/master/igsr_30x%20GRCh38.tsv?token=ANT5TMVRQM2OESEY3DFZAPLBIBS3O
 
 #obtain cram file links of the individuals of the trios
 grep cram igsr_30x\ GRCh38.tsv | cut -f1 >links.txt
 for i in $(cat inds.txt); do grep $i links.txt >> links2.txt; done
 mv links2.txt links.txt
 
-cd ../scripts  #MANAGE PATHS AND GIVE IT AS ARGUMENTS TO DOWNLOAD CODE
-#download cram files and the reference fasta
+
+#download the individual cram files
 bsub -J "dwnld[1-1793]%40" < download.sh
 
-#index the reference fasta
-samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa
 
 #create the configuration file for Snakefile
 ml load python-3.9.0-gcc-9.3.0-5t75egs
