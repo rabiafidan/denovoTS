@@ -1,12 +1,11 @@
 configfile: "config.yaml"
 
 #seq=range(1,603)  #trio index
-#seq=range(2,301) #Rabia
+seq=range(1,301) #Rabia
 #seq=range(301,603) #Conor
 
 
-#trios=[x for x in seq]
-trios=[364,370,390,413,432,511,513,530,546,595]
+trios=[x for x in seq]
 
 rule all:
 	input:
@@ -34,9 +33,6 @@ rule samtools_index:
 
 	shell:
                 "samtools index {input.sample}"
-
-	#wrapper:
-        	#"0.77.0/bio/samtools/index"
 
 
 rule octopus:

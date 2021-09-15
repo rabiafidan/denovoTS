@@ -28,8 +28,8 @@ wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_
 #data manipulation
 ml load r-4.0.3-gcc-9.3.0-4l6eluj
 
-rwd=$(pwd) # r working directory
-Rscript ../scripts/data.R $rwd
+wd=$(pwd) # r/python working directory
+Rscript ../scripts/data.R $wd
 
 #create crams directory to store cram files
 if [ ! -d crams ]; then
@@ -37,8 +37,8 @@ if [ ! -d crams ]; then
 fi
 
 #download the table containing the cram file links from https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
-#You can also get the same list from the github repo:
-wget https://raw.githubusercontent.com/rabiafidan/denovoTS/master/igsr_30x%20GRCh38.tsv?token=ANT5TMVRQM2OESEY3DFZAPLBIBS3O
+#You can also get the same list from the github repo by uncommenting the following line:
+#wget https://raw.githubusercontent.com/rabiafidan/denovoTS/master/igsr_30x%20GRCh38.tsv?token=ANT5TMVRQM2OESEY3DFZAPLBIBS3O
 
 #obtain cram file links of the individuals of the trios
 grep cram igsr_30x\ GRCh38.tsv | cut -f1 >links.txt
@@ -49,9 +49,19 @@ mv links2.txt links.txt
 #download the individual cram files
 bsub -J "dwnld[1-1793]%40" < download.sh
 
+#VARIANTS CALLING
 
 #create the configuration file for Snakefile
 ml load python-3.9.0-gcc-9.3.0-5t75egs
-python 
+python scripts/configfile.py $wd 
 
 
+cd ..
+#running Snakefile
+bsub < scripts/snakemake.sh
+
+#VARIANT FILTERING
+
+#Download UCSC Dec2013 hg38 repeatmasker file as repeatmask.txt. Selected fields (GenoName GenoStart GenoEnd repClass)
+#Similarly, uncomment the following to download from the github repo.
+#wget

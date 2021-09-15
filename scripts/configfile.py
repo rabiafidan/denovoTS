@@ -1,3 +1,10 @@
+#! /usr/bin/python
+
+import sys
+import os
+path=sys.argv[1]
+os.chdir(path)
+
 #%%
 c=[]
 with open("children.txt", "r") as child:
@@ -15,7 +22,7 @@ with open("father.txt", "r") as fat:
             f.append(line.strip())
 
 # %%
-with open("config.yaml", "w") as con:
+with open("../config.yaml", "w") as con:
     con.write("trios:\n")
     for i in range(1,len(f)+1):
         con.write("        '"+str(i)+"\':")
