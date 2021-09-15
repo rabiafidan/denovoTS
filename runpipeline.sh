@@ -62,6 +62,9 @@ bsub < scripts/snakemake.sh
 
 #VARIANT FILTERING
 
+
 #Download UCSC Dec2013 hg38 repeatmasker file as repeatmask.txt. Selected fields (GenoName GenoStart GenoEnd repClass)
-#Similarly, uncomment the following to download from the github repo.
-#wget
+grep 'Low_complexity' repeatmask.txt  | grep $'^chr[0-9X]*\t' | cut -f1,2,3 > low_complexity.bed
+grep 'Simple_repeat' repeatmask.txt  | grep $'^chr[0-9X]*\t' | cut -f1,2,3 > microsatellite.bed
+grep 'DNA' repeatmask.txt  | grep $'^chr[0-9X]*\t' | cut -f1,2,3 > DNArep.bed #includes DNA? ones 
+
