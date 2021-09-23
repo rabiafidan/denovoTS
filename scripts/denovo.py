@@ -58,6 +58,9 @@ for line in t:
             alleles_c=[line_list[child_idx][i] for i in [0,2]]
             alleles_p1=[line_list[parent_idx[0]][i] for i in [0,2]]
             alleles_p2=[line_list[parent_idx[1]][i] for i in [0,2]]
+            
+            if '.' in alleles_c+alleles_p1+alleles_p2:
+                continue
 
             if novelty== "conventional" and outtype=="all":
                 if alleles_p1 == ["0","0"] and alleles_p2 == ["0","0"] and alleles_c != ["0","0"]:
