@@ -52,7 +52,7 @@ for line in t:
     
     else:
         line_list=line.decode().strip().split()
-        if line_list[6] != 'PASS':
+        if line_list[6] != 'PASS' or line_list[6] !='.':
             continue
 
         else:
