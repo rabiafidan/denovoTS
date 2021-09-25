@@ -49,19 +49,15 @@ mv links2.txt links.txt
 #download the individual cram files
 bsub -J "dwnld[1-1793]%40" < download.sh
 
-#VARIANT CALLING
+
+cd ..
 
 #create the configuration file for Snakefile
 ml load python-3.9.0-gcc-9.3.0-5t75egs
 python scripts/configfile.py $wd 
 
 
-cd ..
-#running Snakefile
-bsub < scripts/snakemake.sh
-
-#VARIANT FILTERING
-
+#create a bed file to use for regional filtering of vcf files
 #Download UCSC Dec2013 hg38 repeatmasker file as repeatmask.txt. Selected fields (GenoName GenoStart GenoEnd repClass)
 grep 'Low_complexity' repeatmask.txt  | grep $'^chr[0-9X]*\t' | cut -f1,2,3 > low_complexity.bed
 grep 'Simple_repeat' repeatmask.txt  | grep $'^chr[0-9X]*\t' | cut -f1,2,3 > microsatellite.bed
@@ -76,4 +72,8 @@ rm microsatellite.bed
 rm DNArep.bed
 
 bedtools merge -i microsatellite_sorted.bed -i low_complexity_sorted.bed -i DNArep_sorted.bed > region.bed
+
+
+#running Snakefile
+bsub < scripts/snakemake.sh
 
