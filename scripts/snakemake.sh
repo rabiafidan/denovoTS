@@ -15,4 +15,4 @@ conda init
 . ~/.bashrc
 
 conda activate Rabia
-snakemake --rerun-incomplete --cluster "bsub -M {resources.mem_mb} -n {threads} -q standard -J snakemake -e {params.err} -o {params.out}" --jobs 200 --keep-going --use-singularity
+snakemake --latency-wait 300 --rerun-incomplete --cluster "bsub -M {resources.mem_mb} -n {threads} -q standard -J snakemake -e {params.err} -o {params.out}" --jobs 200 --keep-going --use-singularity
