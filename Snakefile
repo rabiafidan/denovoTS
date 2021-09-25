@@ -16,8 +16,11 @@ trios=269
 rule all:
 	input:
 		#expand("octopus_calls/trio{trio}.vcf.gz",trio=trios),
-		expand("deeptrio_calls/trio{trio}_denovo.vcf.gz",trio=trios),
-		expand("denovo_variants/octopus/trio{trio}.vcf",trio=trios)
+		expand("deeptrio_calls/trio{trio}.vcf.gz",trio=trios),
+		#expand("filtered_denovo_variants/octopus/trio{trio}.vcf",trio=trios),
+		#expand("filtered_denovo_variants/deeptrio/trio{trio}.vcf",trio=trios),
+		expand("filtered_denovo_variants/intersection/trio{trio}.vcf",trio=trios)
+
 
 rule samtools_index:
 	input:
@@ -76,13 +79,13 @@ rule octopusFilter:
 		region="region.bed"
 
 	output:
-		"denovo_variants/octopus/trio{trio}.vcf"
+		"filtered_denovo_variants/octopus/trio{trio}.vcf.gz"
 
 	params:
-		err=lambda wildcards: "logs/filter/err.trio" +wildcards.trio,
-		out=lambda wildcards: "logs/filter/out.trio" +wildcards.trio
-		#err="logs",
-		#out="/dev/null"
+		#err=lambda wildcards: "logs/filter/err.trio" +wildcards.trio,
+		#out=lambda wildcards: "logs/filter/out.trio" +wildcards.trio
+		err="/dev/null",
+		out="/dev/null"
 
 	threads: 1
 
@@ -90,7 +93,7 @@ rule octopusFilter:
 		mem_mb=2000
 
 	shell:
-		"bcftools view -e 'INFO/DENOVO!=1 | INFO/REVERSION==1 | FILTER!=\"PASS\" | FMT/FT!=\"PASS\" | FMT/DP <24 | MP<40 ' -T ^{input.region} {input.vcf} > {output}"
+		"bcftools view -e 'INFO/DENOVO!=1 | INFO/REVERSION==1 | FILTER!=\"PASS\" | FMT/FT!=\"PASS\" | FMT/DP <24 | MP<40 ' -T ^{input.region} {input.vcf} -Oz -o {output}"
 
 	
 rule deepTrio:
@@ -154,19 +157,21 @@ rule glnexus_merge:
 		f=lambda wildcards: "deeptrio_calls/trio"+ wildcards.trio+"/dad.g.vcf.gz",
 		c=lambda wildcards: "deeptrio_calls/trio"+ wildcards.trio+"/child.g.vcf.gz"
 	output:
-		"deeptrio_calls/trio{trio}.vcf.gz"
+		scratch=temp(directory("GLnexusDB/{trio}")),
+		v="deeptrio_calls/trio{trio}.vcf.gz"
 	container:
 		"docker://quay.io/mlin/glnexus:v1.3.1"
 	threads: 10
 	resources:
-		mem_mb=10000
+		mem_mb=20000
 	params:
 		err=lambda wildcards: "logs/glnexus/err.trio" +wildcards.trio,
-		out=lambda wildcards: "logs/glnexus/out.trio" +wildcards.trio
+		out=lambda wildcards: "logs/glnexus/out.trio" +wildcards.trio,
+		mem_gb=lambda wildcards,resources: resources.mem_mb//1000,
 
 	shell:
-		"/usr/local/bin/glnexus_cli -t {threads} -m {resources.mem_mb} \
-		--config DeepVariant_unfiltered {input.f} {input.m} {input.c} | bcftools view |bgzip -c > {output}"
+		"/usr/local/bin/glnexus_cli -t {threads} -m {params.mem_gb} --dir {output.scratch} \
+		--config DeepVariant_unfiltered {input.f} {input.m} {input.c} | bcftools view |bgzip -c > {output.v}"
 
 
 rule DeepTrioDenovo:
@@ -185,3 +190,67 @@ rule DeepTrioDenovo:
 		out=lambda wildcards: "logs/DTdenovo/out.trio" +wildcards.trio
 	shell:
 		"python scripts/denovo.py all all {input} {params.child} {output}"
+
+rule DeepTrioFilter:
+	input:
+		vcf="deeptrio_calls/trio{trio}_denovo.vcf.gz",
+		region="region.bed"
+
+	output:
+		"filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz"
+
+	params:
+		err="/dev/null",
+		out="/dev/null"
+
+	threads: 1
+
+	resources:
+		mem_mb=2000
+
+	shell:
+		"bcftools view -e 'QUAL<15 | INFO/AQ<15 | FMT/DP<20 | FMT/DP>80' -T ^{input.region} {input.vcf} -Oz -o {output}"
+
+rule bcftoolsIndex:
+	input:
+		"filtered_denovo_variants/{variantcaller}/trio{trio}.vcf.gz"
+
+	output:
+		"filtered_denovo_variants/{variantcaller}/trio{trio}.vcf.gz.csi"
+
+	params:
+		err="/dev/null",
+		out="/dev/null"
+
+	threads: 1
+
+	resources:
+		mem_mb=2000
+
+	shell:
+		"bcftools index {input}"
+	
+
+
+rule intersection:
+	input:
+		"filtered_denovo_variants/octopus/trio{trio}.vcf.gz.csi",
+		"filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz.csi",
+		o_vcf="filtered_denovo_variants/octopus/trio{trio}.vcf.gz",
+		d_vcf="filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz"
+		
+	output:
+		"filtered_denovo_variants/intersection/trio{trio}.vcf"
+
+	params:
+		err="/dev/null",
+		out="/dev/null"
+
+	threads: 1
+
+	resources:
+		mem_mb=2000
+
+	shell:
+		"bcftools isec -c all -n=2 -w1 {input.o_vcf} {input.d_vcf} -Ov -o {output}"
+
