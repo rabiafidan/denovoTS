@@ -71,5 +71,9 @@ sort -k1,1 -k2,2n low_complexity.bed > low_complexity_sorted.bed
 sort -k1,1 -k2,2n DNArep.bed > DNArep_sorted.bed
 sort -k1,1 -k2,2n microsatellite.bed > microsatellite_sorted.bed
 
+rm low_complexity.bed
+rm microsatellite.bed
+rm DNArep.bed
+
 bedtools merge -i microsatellite_sorted.bed -i low_complexity_sorted.bed -i DNArep_sorted.bed > region.bed
 
