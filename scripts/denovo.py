@@ -27,8 +27,6 @@ denovo= gzip.open(outfile, "w")
 
 for line in t:
     if line.startswith(b'#CHROM'):
-        denovo.write(b'# De novo variants are subsetted using denovo.py')
-        denovo.write(str.encode('\n#'+str(sys.argv)+"\n"))
         header=line.decode().strip().split()
         child_idx=header.index(child)
         parent_idx=[9,10,11]
