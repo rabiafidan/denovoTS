@@ -11,15 +11,16 @@ wildcard_constraints:
 
 
 #trios=[x for x in seq]
-trios=[277,147,255,287]
+trios=[277,147,255,287,289,246]
 
 rule all:
 	input:
-		#expand("octopus_calls/trio{trio}.vcf.gz",trio=trios),
+		expand("octopus_calls/trio{trio}.vcf.gz",trio=trios),
 		expand("deeptrio_calls/trio{trio}.vcf.gz",trio=trios),
-		#expand("filtered_denovo_variants/octopus/trio{trio}.vcf",trio=trios),
-		#expand("filtered_denovo_variants/deeptrio/trio{trio}.vcf",trio=trios),
-		expand("filtered_denovo_variants/intersection/trio{trio}.vcf",trio=trios)
+		expand("filtered_denovo_variants/octopus/trio{trio}.vcf.gz",trio=trios),
+		expand("filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz",trio=trios),
+		expand("filtered_denovo_variants/intersection/trio{trio}.vcf",trio=trios),
+		expand("filtered_denovo_variants/intersection/trio{trio}_bedtools.vcf",trio=trios)
 
 
 
@@ -95,7 +96,7 @@ rule octopusFilter:
 	resources:
 		mem_mb=2000
 	shell:
-		"bcftools view -e 'INFO/DENOVO!=1 | INFO/REVERSION==1 | FILTER!=\"PASS\" | FMT/FT!=\"PASS\" | FMT/DP <24 | MP<40 ' -T ^{input.region} {input.vcf} -Oz -o {output}"
+		"bcftools view -e 'INFO/DENOVO!=1 | INFO/REVERSION==1 | FILTER!=\"PASS\" | FMT/FT!=\"PASS\" | FMT/DP <20 | MP<40 ' -T ^{input.region} {input.vcf} -Oz -o {output}"
 
 	
 
@@ -171,7 +172,7 @@ rule glnexus_merge:
 	threads:
 		10
 	resources:
-		mem_mb=20000
+		mem_mb=50000
 	params:
 		err=lambda wildcards: "logs/glnexus/err.trio" +wildcards.trio,
 		out=lambda wildcards: "logs/glnexus/out.trio" +wildcards.trio,
@@ -246,7 +247,7 @@ rule bcftoolsIndex:
 
 rule intersection:
 	"""
-	Filter Octopus calls with DeepTrio calls by keeping Octopus recordsi only if they intersect with DeepTrio records.
+	Filter Octopus calls with DeepTrio calls by keeping Octopus records only if they intersect with DeepTrio records using bcftools.
 	"""
 	input:
 		"filtered_denovo_variants/octopus/trio{trio}.vcf.gz.csi",
@@ -264,4 +265,25 @@ rule intersection:
 		mem_mb=2000
 	shell:
 		"bcftools isec -c all -n=2 -w1 {input.o_vcf} {input.d_vcf} -Ov -o {output}"
+
+
+
+rule bedtools_intersection:
+	"""
+	Filter Octopus calls with DeepTrio calls by keeping Octopus records only if they intersect with DeepTrio records using bedtools.
+	"""
+	input:
+		o_vcf="filtered_denovo_variants/octopus/trio{trio}.vcf.gz",
+		d_vcf="filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz"
+	output:
+		"filtered_denovo_variants/intersection/trio{trio}_bedtools.vcf"
+	params:
+		err="/dev/null",
+		out="/dev/null"
+	threads:
+		1
+	resources:
+		mem_mb=2000
+	shell:
+		"cat <(bcftools view -h {input.o_vcf}) <(bedtools intersect -a {input.o_vcf} -b {input.d_vcf}) > {output}"
 
