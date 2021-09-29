@@ -5,22 +5,21 @@ localrules: all
 wildcard_constraints:
     trio="\d+"
 
-#seq=range(1,603)  #trio index
+seq=range(1,603)  #trio index
 #seq=range(1,301) #Rabia
 #seq=range(301,603) #Conor
 
 
-#trios=[x for x in seq]
-trios=[277,147,255,287,289,246]
+trios=[x for x in seq]
 
 rule all:
 	input:
-		expand("octopus_calls/trio{trio}.vcf.gz",trio=trios),
-		expand("deeptrio_calls/trio{trio}.vcf.gz",trio=trios),
+		#expand("octopus_calls/trio{trio}.vcf.gz",trio=trios),
+		#expand("deeptrio_calls/trio{trio}.vcf.gz",trio=trios),
 		expand("filtered_denovo_variants/octopus/trio{trio}.vcf.gz",trio=trios),
-		expand("filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz",trio=trios),
-		expand("filtered_denovo_variants/intersection/trio{trio}.vcf",trio=trios),
-		expand("filtered_denovo_variants/intersection/trio{trio}_bedtools.vcf",trio=trios)
+		#expand("filtered_denovo_variants/deeptrio/trio{trio}.vcf.gz",trio=trios),
+		#expand("filtered_denovo_variants/intersection/trio{trio}.vcf",trio=trios),
+		#expand("filtered_denovo_variants/intersection/trio{trio}_bedtools.vcf",trio=trios)
 
 
 
@@ -81,16 +80,13 @@ rule octopusFilter:
 	input:
 		vcf="octopus_calls/trio{trio}.vcf.gz",
 		region="region.bed"
-
 	output:
 		"filtered_denovo_variants/octopus/trio{trio}.vcf.gz"
-
 	params:
 		#err=lambda wildcards: "logs/filter/err.trio" +wildcards.trio,
 		#out=lambda wildcards: "logs/filter/out.trio" +wildcards.trio
 		err="/dev/null",
 		out="/dev/null"
-
 	threads:
 		1
 	resources:
