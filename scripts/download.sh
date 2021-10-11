@@ -8,9 +8,9 @@
 
 
 ###retreive the individual link and download
-llink=$(awk -v idx="${LSB_JOBINDEX}" 'FNR==idx {print $0}' links.txt)
+llink=$(awk -v idx="${LSB_JOBINDEX}" 'FNR==idx {print $0}' data/links.txt)
 
-cd ../crams/
+cd crams/
 wget $llink
 
 
