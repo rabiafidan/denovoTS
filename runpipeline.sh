@@ -9,8 +9,9 @@
 #Data: High coverage 1KG trios
 #https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
 
-#load r module
+#load r and python modules
 ml load r-4.0.3-gcc-9.3.0-4l6eluj
+ml load python-3.9.0-gcc-9.3.0-5t75egs
 
 #create a directory for data manipulation
 if [ ! -d data ]; then
@@ -53,7 +54,6 @@ cd ..
 bsub -J "dwnld[1-1793]%40" < scripts/download.sh
 
 #create the configuration file for Snakefile
-ml load python-3.9.0-gcc-9.3.0-5t75egs
 python scripts/configfile.py $wd 
 
 #create a bed file to use for regional filtering of vcf files
