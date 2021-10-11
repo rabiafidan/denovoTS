@@ -40,8 +40,8 @@ wd=$(pwd) # r/python working directory
 Rscript ../scripts/data.R $wd 
 
 #download the table containing the cram file links from https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
-#You can also get the same list from the github repo by uncommenting the following line:
-#wget https://raw.githubusercontent.com/rabiafidan/denovoTS/master/igsr_30x%20GRCh38.tsv?token=ANT5TMVRQM2OESEY3DFZAPLBIBS3O
+#You can also get the same list from the github repo by uncommenting the following line (repo needs to be public):
+#wget https://raw.githubusercontent.com/rabiafidan/denovoTS/master/data/igsr_30x%20GRCh38.tsv?token=ANT5TMV73QAXSOLCEELVBFTBMSRUG
 
 #obtain cram file links of the all individuals of the trios
 grep cram igsr_30x\ GRCh38.tsv | cut -f1 >links.txt
